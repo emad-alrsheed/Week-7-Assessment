@@ -22,10 +22,22 @@ Output =>
 [49, 20, 500]
 
 */
-
+var result = 0
+var arr = []
 function MultiByNum1OrNum2() {
-  // WRITE YOUR CODE UNDER THIS LINE         
-}
+  // WRITE YOUR CODE UNDER THIS LINE   
+
+  
+  function getFullName(item) {
+    if (num1 % num2 ===0);
+    const map1 = array1.map(num1 => num1 / num2);
+  }else{
+    const map2 = array2.map(num1 => num1*num2);
+  }
+    return result;
+  }
+  
+
 
 /* Q2:
 Using Filter
@@ -57,9 +69,15 @@ Output =>
   { name: "mercer",age:26}
 ]
 */
-
+var arr = []
 function longerAndYounger() {
-  // WRITE YOUR CODE UNDER THIS LINE         
+  // WRITE YOUR CODE UNDER THIS LINE   
+  
+
+  const result = arr.nam.filter(arr => arr.length > arr.length-1 && age > num);
+
+  
+  console.log(result);
 }
 
 /* Q3:
@@ -90,7 +108,11 @@ Output =>
   
 */
 function nameAndAllFoods() {
-  // WRITE YOUR CODE UNDER THIS LINE         
+  // WRITE YOUR CODE UNDER THIS LINE  
+ 
+  arr.reducer =  (name, food) => name  + food;
+
+return arr ;
 }
 
 
@@ -110,4 +132,4 @@ You need to write the solution in the q4.html file
 3. Using jQuery add these logic to q4.html in the same file:
   a. when click on the button with id "no"  => cahnge the color of the div with class "main" to red
   b. when click on the button with id "yes" => cahnge the color of the div with class "main" to green
-*/
+*/Reduce

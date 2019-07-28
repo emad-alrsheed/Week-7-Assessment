@@ -2,11 +2,58 @@
 <html>
 
 <head>
+	<title>q4</title>
+	
+	<style>
+		.no{
+			
+  background-color: red;
+}
+		.yes{
+			background-color: green;
+      
+}
+	</style>
+	<script src="jquery-3.4.1.min.js">
+$(document).ready(function);{
+$("button").click(function()
+  $(no).toggleid('green');
+  $("button").click(function()
+  $(yas).toggleid('red');
+{
+{
+
+
+	</script>
 	<!-- WRITE YOUR CODE UNDER THIS LINE          -->
 </head>
 
 <body>
 	<!-- WRITE YOUR CODE UNDER THIS LINE          -->
+	<div class="main">
+		<button id="no" onclick="myFunction()">Red</button>
+		<button id="yes"onclick="myFunction()">Green</button>
+
+	</div>
 </body>
 
 </html>
+
+You need to write the solution in the q4.html file
+1. Add to q4.html file:
+  a. div:with text 'Main div is here' with class => "main"
+  b. button: with text 'Red'    with id => "no"
+  c. button: with text 'Green'  with id => "yes"
+  d. change the title to Q4
+
+2. Add these style int he same file q4.html:
+  a. id => "no"     the color of the background  =>   Red
+  b. id => "yes"    the color of the background  =>   Green
+  $('input[type="submit"]').click(function(){
+        
+if you want to toggle the color each click, you can try this:- http://jsfiddle.net/SMNks/
+
+
+  3. Using jQuery add these logic to q4.html in the same file:
+  a. when click on the button with id "no"  => cahnge the color of the div with class "main" to red
+  b. when click on the button with id "yes" => cahnge the color of the div with class "main" to green
